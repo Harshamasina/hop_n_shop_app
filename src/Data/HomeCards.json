@@ -1,0 +1,54 @@
+{
+    "HomeCards": [
+        {
+            "icon_name": "LuFuel",
+            "product_type": "Fuel",
+            "product_desc": "We have Diesel, Regular, Alcohol and Octane free Premium Gas for Affordable Prices."
+        },
+        {
+            "icon_name": "MdOutlineGamepad",
+            "product_type": "Game Machines and Lottery",
+            "product_desc": "Our Store has 4 Game Machines where you can win big"
+        },
+        {
+            "icon_name": "LuCandy",
+            "product_type": "Snacks",
+            "product_desc": "We have Chips, Chocolates, Pretzels, Candies, Cakes, Bakery Items etc."
+        },
+        {
+            "icon_name": "LuBeer",
+            "product_type": "Alcohol",
+            "product_desc": "Our store has Beer, Vodka, whiskey, Rum, Shooters of all brands"
+        },
+        {
+            "icon_name": "LuCigarette",
+            "product_type": "Tobacco",
+            "product_desc": "We sell all types of cigarettes and chews from American Spirit to 24/7"
+        },
+        {
+            "icon_name": "LuMilk",
+            "product_type": "Milk Products",
+            "product_desc": "Our store has Milk products from Hiland Diary"
+        },
+        {
+            "icon_name": "RiDrinks2Line",
+            "product_type": "Refreshments",
+            "product_desc": "We have two fountains from Pepsi and Coco-cola and we also have frosties"
+        },
+        {
+            "icon_name": "CiCoffeeCup",
+            "product_type": "Coffee",
+            "product_desc": "Our store brew fresh coffee daily and we also have cappuccino"
+        },
+        {
+            "icon_name": "GiChickenOven",
+            "product_type": "Champs Fried Chicken",
+            "product_desc": "Our store also has Champs Chicken which is first in Phelps county"
+        },
+        {
+            "icon_name": "GiCigar",
+            "product_type": "Dispensary Products",
+            "product_desc": "We also sell Dispensary products for fair prices."
+        }
+    ]
+}

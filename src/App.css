@@ -1,0 +1,1209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar container */
+.navbar_color {
+    /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+    background: rgba(5, 12, 30);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    transition: .3s ease-in-out;
+}
+
+.navbar{
+    background: rgb(34, 34, 34, .1);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    transition: .3s ease-in-out;
+}
+
+.navbar-logo {
+    color: rgb(230, 239, 244);
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img{
+    width: 100px;
+}
+
+.menu-icon {
+    display: none;
+    color: rgb(230, 239, 244);
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    margin-right: 2rem;
+}
+
+.nav-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.nav-links {
+    color: rgb(230, 239, 244);
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    transition: all 0.4s ease;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-links:hover {
+    color: rgb(21, 150, 70);
+    border-radius: 4px;
+}
+
+.nav-links-btn{
+    padding: 10px 15px 10px 15px;
+    border: 2px solid rgb(21, 150, 70);
+    color: rgb(230, 239, 244);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+.nav-links-btn:hover{
+    background: rgb(21, 150, 70);
+    color: rgb(230, 239, 244);
+    transition: 0.3s ease-in-out;
+    border: 2px solid rgb(21, 150, 70);
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: rgb(230, 239, 244);
+    min-width: 200px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 4px;
+}
+
+.dropdown-menu .dropdown-link {
+    color: rgb(34, 34, 34);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.2s;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.dropdown-menu .dropdown-link:hover {
+    background-color: rgb(21, 150, 70);
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Mobile responsive styling */
+@media screen and (max-width: 960px) {
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        background: rgb(230, 239, 244);
+    }
+
+    .nav-menu.active {
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+    }
+
+    .nav-links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    .nav-item .dropdown-menu {
+        position: static;
+        top: 0;
+        box-shadow: none;
+        background-color: #242222;
+        width: 100%;
+    }
+
+    .nav-item .dropdown-menu .dropdown-link {
+        padding: 1rem;
+    }
+}
+
+/* Footer */
+.contact {
+    width: 100%;
+}
+
+.contact .container {
+    max-width: 100%;
+    display: flex;
+}
+  
+.mapouter {
+    width: 100%;
+    max-width: 50%;
+    min-height: 60vh;
+}
+  
+.mapouter iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: none;
+}
+  
+.formContainer {
+    width: 100%;
+    padding: 30px;
+    min-height: 60vh;
+    display: flex;
+    background: url('./assets/Refinery.jpg') no-repeat center/cover;
+}
+  
+form {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background: rgba(230, 239, 244, .4);
+    padding: 30px;
+    border-radius: 10px;
+}
+  
+form input,
+  form textarea {
+    margin-bottom: 20px;
+    padding: 14px;
+    border: 1px solid #ddd;
+    outline: none;
+    color: #7a7a7a;
+}
+  
+form input::placeholder,
+  form textarea::placeholder {
+    color: #7a7a7a;
+}
+  
+form input {
+    width: 47%;
+}
+  
+form input:nth-child(3) {
+    width: 100%;
+}
+  
+form textarea {
+    width: 100%;
+}
+  
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    background: rgb(21, 150, 70);
+    color: #fff;
+    font-size: 14px;
+    padding: 12px 14px;
+    transition: background 500ms ease-in-out;
+    border-radius: 25px;
+}
+  
+.btn:hover {
+    background: rgb(240, 46, 35);
+    color: #fff;
+}
+  
+@media (max-width: 1200px) {
+    .container {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  
+    .mapouter {
+      max-width: 100%;
+      height: 60vh;
+    }
+  
+    .formContainer {
+      padding: 80px 30px;
+    }
+
+    .formContainer{
+        padding: 10px;
+    }
+  
+    form {
+      max-width: 900px;
+      padding: 20px;
+    }
+}
+
+.container-fluid{
+    color:#fff;
+    padding-bottom: 50px;
+    background: rgb(5, 12, 30);
+}
+
+.fa{
+    cursor: pointer;
+    font-size: 21px ;
+    margin: 5px 10px 5px 10px !important;
+}
+
+.container-fluid h5{
+    color: rgb(230, 239, 244);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container-fluid img{
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    width: 100px; 
+}
+
+.container-fluid li:first-child {
+   font-size:  23px;
+   font-weight: bold;
+   margin-bottom: calc(40px + (48 - 40) * ((100vw - 360px) / (1600 - 360))) !important;
+   color:rgb(21, 150, 70);
+
+}
+
+.footer_links{
+    text-decoration: none;
+    color: rgb(230, 239, 244);
+    font-size: 20px;
+    transition: .5s ease-in-out;
+}
+
+.footer_links:hover{
+    text-decoration: underline;
+    color: rgb(240, 46, 35);
+}
+
+.footer_info{
+    font-size: 20px;
+}
+
+.social{
+   position: relative;
+   left: -10px;
+}
+
+.cursor-pointer{
+   cursor: pointer !important;
+   color:rgb(21, 150, 70);
+   font-weight: bold;
+}
+
+/* Home Page */
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(34, 34, 34, .5);
+}
+  
+.info {
+    width: 100%;
+    max-width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+}
+  
+.info p {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    font-style: italic;
+}
+  
+.info h1 {
+    font-size: 90px;
+    line-height: 1;
+    font-weight: 900;
+    margin: 30px 0;
+}
+  
+.info h1 span {
+    color: rgb(240, 46, 35);
+    font-style: italic;
+}
+  
+.home_btn {
+    padding: 20px 30px;
+    background: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 3px solid rgb(21, 150, 70);
+    transition: .3s ease-in-out;
+}
+  
+.home_btn:hover {
+    background-color: rgb(21, 150, 70);
+    border: 3px solid rgb(21, 150, 70);
+    transform: scale(1.05);
+}
+  
+
+@media (max-width: 1000px) {
+    .info h1 {
+      font-size: 42px;
+    }
+}
+  
+
+.video-bg {
+    min-width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Home Info */
+.store_container {
+    text-align: center;
+    margin-top: 3%;
+}
+  
+.store_title {
+    color: rgb(5, 12, 30);
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1;
+}
+  
+.store_title span {
+    color: rgb(240, 46, 35);
+    font-style: italic;
+}
+  
+.store_subtitle {
+    color: rgb(34, 34, 34);
+    font-size: 18px;
+    line-height: 1.7;
+}
+  
+@media (max-width: 700px) {
+    .store_subtitle {
+      padding: 0 40px;
+    }
+  
+    .store_subtitle br {
+      display: none;
+    }
+}
+  
+.card_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    gap: 20px;
+}
+  
+@media (max-width: 700px) {
+    .card_container {
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 90%;
+    }
+}
+  
+@media (min-width: 701px) and (max-width: 1100px) {
+    .card_container {
+      flex-direction: column;
+      align-items: center;
+      width: 80%;
+    }
+}
+  
+.HomeInfo_card {
+    width: 100%;
+    max-width: 47%;
+    display: flex;
+    text-align: left;
+    margin: 30px 0;
+}
+  
+.HomeInfo_card span {
+    margin-right: 30px;
+    height: 150px;
+    font-size: 70px;
+    color: rgb(230, 239, 244);
+    padding: 20px 50px;
+    background: rgb(21, 150, 70);
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+}
+
+.HomeInfo_card span:hover{
+    background: rgb(5, 12, 30);
+}
+  
+.HomeInfo_cardInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+.HomeInfo_cardInfo h4 {
+    color: rgb(5, 12, 30);
+    font-size: 25px;
+    font-weight: 600;
+}
+  
+.HomeInfo_cardInfo p {
+    color: rgb(34, 34, 34);
+    font-size: 18px;
+    line-height: 1.7;
+}
+  
+.homeInfo_link {
+    color: rgb(21, 150, 70);
+    text-decoration: none;
+    transition: color 600ms ease-in-out;
+    font-size: 14px;
+    font-weight: 600;
+}
+  
+.homeInfo_link:hover {
+    color: rgb(5, 12, 30);
+    text-decoration: underline;
+}
+  
+@media (max-width: 700px) {
+    .HomeInfo_card {
+      max-width: 100%;
+    }
+}
+  
+@media (min-width: 701px) and (max-width: 1100px) {
+    .HomeInfo_card {
+      max-width: 80%;
+    }
+}
+
+/* Home Ribbon */
+.home_ribbon {
+    width: 100%;
+    padding: 120px 0;
+    text-align: center;
+    position: relative;
+    background: url('./assets/dino_man.jpg') no-repeat center/cover;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    overflow: hidden;
+}
+
+.home_ribbon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(5, 12, 30, 0.75);
+    z-index: 1;
+}
+
+.home_ribbon h2,
+.home_ribbon p {
+    position: relative;
+    z-index: 2;
+}
+
+.home_ribbon h2 {
+    color: rgb(21, 150, 70);
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 1.3px;
+    line-height: 1;
+}
+
+.home_ribbon h2 span {
+    color: #ed563b;
+}
+
+.home_ribbon p {
+    color: rgb(230, 239, 244);
+    font-size: 20px;
+    line-height: 1.7;
+    margin: 20px 0;
+    margin-bottom: 2%;
+}
+
+.home_ribbon_link{
+    position: relative;
+    z-index: 2;
+    padding: 10px 15px 10px 15px;
+    border: 2px solid rgb(21, 150, 70);
+    color: rgb(230, 239, 244);
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.home_ribbon_link:hover{
+    background: rgb(21, 150, 70);
+    color: rgb(230, 239, 244);
+    transition: 0.3s ease-in-out;
+    border: 2px solid rgb(21, 150, 70);
+}
+
+@media (max-width: 850px) {
+    .home_ribbon h2 {
+        font-size: 30px;
+    }
+    .home_ribbon p {
+        padding: 0 20px;
+    }
+    .home_ribbon p br {
+        display: none;
+    }
+}
+
+/* Schedule Section */
+.schedule {
+    position: relative;
+    width: 100%;
+    padding: 120px 0;
+    text-align: center;
+    background: url('./assets/sinclair_gas_station.jpg') no-repeat center/cover;
+    color: rgb(230, 239, 244);
+    margin-bottom: 3%;
+}
+
+.schedule::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(5, 12, 30, 0.75);
+    z-index: 1;
+}
+  
+.schedule h3 {
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 1.3px;
+    line-height: 1;
+    color:rgb(230, 239, 244);
+    position: relative;
+    z-index: 2;
+}
+  
+.schedule h3 span {
+    color: rgb(21, 150, 70);
+    position: relative;
+    z-index: 2;
+}
+  
+.schedule p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin: 20px 0;
+    position: relative;
+    z-index: 2;
+}
+  
+.icon {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+  
+.links {
+    padding: 40px 0 20px 0;
+    position: relative;
+    z-index: 2;
+}
+  
+.links button {
+    color: rgb(230, 239, 244);
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-size: 20px;
+    margin: 0 8px;
+    cursor: pointer;
+    outline: none;
+    transition: color 0.3s ease-in-out;
+    position: relative;
+    z-index: 2;
+}
+  
+.links button.active {
+    color: rgb(240, 46, 35);
+}
+  
+.links button:hover {
+    color: rgb(240, 46, 35);
+}
+
+.links span{
+    padding-left: 10px;
+}
+  
+.schedule_table {
+    border-collapse: collapse;
+    margin: 30px auto 0;
+    width: 50%;
+    color: rgb(230, 239, 244);
+    text-align: left;
+    position: relative;
+    z-index: 2;
+}
+
+.schedule_table th{
+    font-size: 25px;
+}
+  
+.schedule_table td {
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid rgb(230, 239, 244);
+}
+  
+.schedule_table .hidden {
+    opacity: 0.5;
+    font-style: italic;
+}
+  
+@media (max-width: 640px) {
+    .schedule p {
+      padding: 0 20px;
+    }
+  
+    .links button {
+      font-size: 14px;
+    }
+  
+    .schedule_table td {
+      padding: 10px;
+      font-size: 12px;
+    }
+}
+
+/* Champs Home */
+
+.champs_main{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+.champs_overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(34, 34, 34, .5);
+}
+  
+.champs_info {
+    width: 100%;
+    max-width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+}
+  
+.champs_info p {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    font-style: italic;
+}
+  
+.champs_info h1 {
+    font-size: 90px;
+    line-height: 1;
+    font-weight: 900;
+    margin: 30px 0;
+    color: rgb(170, 30, 38);
+}
+  
+.champs_info h1 span {
+    color: rgb(251, 172, 28);
+    font-style: italic;
+}
+  
+.champs_home_btn {
+    padding: 20px 30px;
+    background: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 3px solid rgb(170, 30, 38);
+    transition: .3s ease-in-out;
+    text-decoration: none;
+}
+  
+.champs_home_btn:hover {
+    background-color: rgb(251, 172, 28);
+    border: 3px solid rgb(251, 172, 28);
+    transform: scale(1.05);
+}
+  
+
+@media (max-width: 1000px) {
+    .info h1 {
+      font-size: 42px;
+    }
+}
+  
+.champs_video-bg {
+    min-width: 100%;
+    min-height: 50vh;
+    max-width: 100%;
+    max-height: 50vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.champs_home_info{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.champs_home_info_img img{
+    width: 750px;
+}
+
+.champs_home_info_p p{
+    font-size: 27px;
+    font-weight: 550;
+}
+
+.champs_home_info_p span{
+    color: rgb(170, 30, 38);
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* Champs Menu */
+.champs_menu {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+
+.champs_menu_h3{
+    text-align: center;
+}
+
+.champs_menu_h3 h3{
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(170, 30, 38) !important;
+    position: relative;
+    display: inline-block;
+    background-image: linear-gradient(
+        to right,
+        #fbac1c,
+        #fbac1c 50%,
+        #9f2128 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Sets transparent color for gradient text effect */
+    transition: all 0.3s ease-in-out;
+}
+
+.champs_menu_h3 h3::before {
+    content: '';
+    background: rgb(251, 172, 28);
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.champs_menu_h3 h3:hover {
+    background-position: 0;
+}
+
+.champs_menu_h3 h3:hover::before {
+    width: 100%;
+}
+  
+.menu_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 0 0;
+}
+  
+.links_container {
+    width: 100%;
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+  
+.links_container button{
+    width: 100%;
+    padding: 28px 36px;
+    color: rgb(34, 34, 34);
+    font-weight: 500;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.links_container a{
+    width: 100%;
+    padding: 28px 36px;
+    color: rgb(230, 239, 244);
+    background: rgb(170, 30, 38);
+    font-weight: 500;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 36px; */
+    border: none;
+    outline: none;
+    font-size: 20px;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+    border-radius: 5px;
+}
+
+.links_container a:hover{
+    background: rgb(251, 172, 28);
+}
+  
+.links_container button.active {
+    color: rgb(170, 30, 38);
+}
+  
+.links_container button img {
+    margin-right: 10px;
+}
+  
+.menu_results {
+    width: 100%;
+    max-width: 70%;
+}
+  
+.menu_output img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+  
+.menu_output h4 {
+    margin: 34px 0 0 0;
+    font-size: 30px;
+    color: rgb(170, 30, 38);
+    font-weight: 700;
+    line-height: 1;
+}
+  
+.menu_output p {
+    margin: 20px 0;
+    font-size: 20px;
+    color: rgb(34, 34, 34);
+}
+
+.menu_output a{
+    color: rgb(170, 30, 38);
+    text-decoration: none;
+    font-size: 20px;
+    transition: .5s ease-in-out;   
+}
+
+.menu_output a:hover{
+    text-decoration: underline;
+}
+  
+@media (max-width: 900px) {
+    .menu_container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .links_container {
+      max-width: 590px;
+    }
+  
+    .menu_results {
+      max-width: 590px;
+      padding: 30px 0 0 0;
+    }
+  
+    .menu_output img {
+      height: 260px;
+    }
+}
+  
+@media (min-width: 901px) and (max-width: 1226px) {
+    .menu_container {
+      justify-content: space-between;
+      max-width: 90%;
+    }
+  
+    .links_container {
+      max-width: 280px;
+    }
+  
+    .menu_results {
+      max-width: 62%;
+    }
+}
+
+/* Home Ribbon */
+.champs_ribbon {
+    width: 100%;
+    padding: 120px 0;
+    text-align: center;
+    position: relative;
+    background: url('./assets/champs_chicken_logo.png') no-repeat center/cover;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    overflow: hidden;
+}
+
+.champs_ribbon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(5, 12, 30, 0.6);
+    z-index: 1;
+}
+
+.champs_ribbon h4,
+.champs_ribbon p {
+    position: relative;
+    z-index: 2;
+}
+
+.champs_ribbon h4 {
+    color: rgb(251, 172, 28);
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 1.3px;
+    line-height: 1;
+}
+
+.champs_ribbon p {
+    color: rgb(230, 239, 244);
+    font-size: 25px;
+    line-height: 1.7;
+    font-weight: 600;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+.champs_ribbon a{
+    position: relative;
+    z-index: 2;
+    color: rgb(230, 239, 244) !important;
+    padding: 10px 15px 10px 15px;
+    border: 2px solid rgb(170, 30, 38);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.champs_ribbon a:hover{
+    background: rgb(170, 30, 38);
+    color: rgb(230, 239, 244);
+    transition: 0.3s ease-in-out;
+    border: 2px solid rgb(170, 30, 38);
+}
+
+@media (max-width: 850px) {
+    .champs_ribbon h2 {
+        font-size: 30px;
+    }
+    .champs_ribbon p {
+        padding: 0 20px;
+    }
+    .champs_ribbon p br {
+        display: none;
+    }
+}
+
+/* Go Top Button */
+.goToTop_icon{
+    font-size: 4rem;
+    color: rgb(21, 150, 70);
+    position: fixed;
+    bottom: 5rem;
+    right: 4rem;
+    z-index: 999;
+    animation: .4s ease-in-out;
+}
+
+.goToTop_icon:hover{
+    transform: scale(1.1);
+    color: rgb(21, 150, 70);
+}
+
+/* Call Button */
+
+.makeCall_icon{
+    color: rgb(21, 150, 70);
+    position: fixed;
+    bottom: 5rem;
+    left: 4rem;
+    z-index: 999;
+    animation: heart 1.5s cubic-bezier(.36,.07,.57,.99) infinite;
+    transition: .5s ease-in-out;
+}
+
+.makeCall_icon:hover{
+    color: rgb(21, 150, 70);
+}
+
+@keyframes heart {
+	0% {
+		transform: scale(1.5);
+	}
+	20% {
+		transform: scale(2);
+	}
+	30% {
+		transform: scale(1.5);
+	}
+	40% {
+		transform: scale(2);
+	}
+	100% {
+		transform: scale(1.5);
+	}
+}
+
+.makeCall_icon img{
+    width: 60px;
+}
+
+@media screen and (max-width: 600px){
+    .goToTop_icon{
+        right: 0.75em;
+        width: 1.5rem;
+        bottom: 2rem;
+    }
+
+    .makeCall_icon{
+        font-size: 3rem;
+        left: 1.5rem;
+        bottom: 2rem;
+        animation: none;
+    }
+
+    .makeCall_icon img{
+        width: 30px;
+    }
+}
+
