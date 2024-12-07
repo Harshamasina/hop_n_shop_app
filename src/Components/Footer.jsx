@@ -46,7 +46,7 @@ const Footer = () => {
                                             <span><FaInstagram className='fa'  /></span>  
                                             <span><FaXTwitter className='fa' /></span> 
                                         </p>
-                                        <small className="copy-rights cursor-pointer">&#9400; 2025 Hop'nShop #33 & Sinclair</small><br />
+                                        <small className="copy-rights cursor-pointer">&#9400; 2025 Hop'nShop #32 & Sinclair</small><br />
                                         <small>Copyright.All Rights Resered. </small>
                                     </div>
 

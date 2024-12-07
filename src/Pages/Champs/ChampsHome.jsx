@@ -12,7 +12,7 @@ const champsHome = () => {
                 <div className='champs_info'>
                     <p>Be a Mealtime HERO.</p>
                     <h1>CHAMPS <span>CHICKEN</span></h1>
-                    <a href='#menu' className='champs_home_btn'>See our Menu</a>
+                    {/* <a href='#menu' className='champs_home_btn'>See our Menu</a> */}
                 </div>
                 <video className='champs_video-bg' autoPlay muted loop>
                     <source src={fried_chicken} type='video/mp4' />

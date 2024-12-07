@@ -11,9 +11,9 @@ const Home = () => {
                 <div className='overlay'></div>
                 <div className='info'>
                     <p>Fill up your life!</p>
-                    <h1>Welcome to Hop'nShop & <span>Sinclair</span></h1>
+                    <h1>Welcome to Hop'n Shop & <span>Sinclair</span></h1>
                     <a href='https://maps.app.goo.gl/SMeUTZq3tQ1Swyth7' target='_blank'><button className='home_btn'>Visit Us Today</button></a>
-                </div>
+                </div> 
                 <video className='video-bg' autoPlay muted loop>
                     <source src={gas_pumping} type='video/mp4' />
                 </video>

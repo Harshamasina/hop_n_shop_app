@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Routes, Route, Link } from "react-router-dom";
 import Home from '../Pages/Home';
-import About from '../Pages/Sinclair/About';
 import Inventory from '../Pages/Sinclair/Inventory';
 import Contact from '../Pages/Contact';
 import ChampsHome from '../Pages/Champs/ChampsHome';
@@ -47,7 +46,15 @@ const Navbar = () => {
                             <Link to='/' className='nav-links' onClick={closeMobileMenu}>Home</Link>
                         </li>
 
-                        <li className='nav-item dropdown' onMouseEnter={toggleServicesDropdown} onMouseLeave={toggleServicesDropdown}>
+                        <li className='nav-item'>
+                            <Link to='/about_us' className='nav-links' onClick={closeMobileMenu}>About Us</Link>
+                        </li>
+
+                        <li className='nav-item'>
+                            <Link to='/inventory' className='nav-links' onClick={closeMobileMenu}>Inventory</Link>
+                        </li>
+
+                        {/* <li className='nav-item dropdown' onMouseEnter={toggleServicesDropdown} onMouseLeave={toggleServicesDropdown}>
                             <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
                                 Services <FiChevronDown />
                             </Link>
@@ -63,22 +70,23 @@ const Navbar = () => {
                                     </ul>
                                 )
                             }
-                        </li>
+                        </li> */}
 
                         <li className='nav-item dropdown'
                             onMouseEnter={() => setChampsDropdown(true)}
                             onMouseLeave={() => setChampsDropdown(false)}>
                             <Link to='/champs_fried_chicken' className='nav-links' onClick={closeMobileMenu}>
-                                Champs Fried Chicken <FiChevronDown />
+                                Champs Fried Chicken 
+                                {/* <FiChevronDown /> */}
                             </Link>
-                            {
+                            {/* {
                                 champsDropdown && (
                                     <ul className='dropdown-menu'>
                                         <li><a href='#about_champs' className='dropdown-link' onClick={closeMobileMenu}>About Champs Fried Chicken</a></li>
                                         <li><a href='#menu' className='dropdown-link' onClick={closeMobileMenu}>Chicken Menu</a></li>
                                     </ul>
                                 )
-                            }
+                            } */}
                         </li>
 
                         <li className='nav-item'>
@@ -92,7 +100,6 @@ const Navbar = () => {
                 <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path='/home' element={<Home />} />
-                    <Route path='/services' element={<About />} />
                     <Route path='/about_us' element={<About_Us />} />
                     <Route path='/inventory' element={<Inventory />} />
                     <Route path='/champs_fried_chicken' element={<ChampsHome />} />
