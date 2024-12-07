@@ -17,6 +17,7 @@ const Footer = () => {
                             width="600" height="450" allowfullscreen="" loading="lazy"
                         />
                     </div>
+
                     <div className='formContainer'>
                         <form>
                             <input type="text" placeholder="First Name*" />
@@ -29,7 +30,7 @@ const Footer = () => {
                         </form>
                     </div>
                 </div>
-
+                
                 <div className="container-fluid justify-content-center">
                     <footer>
                         <div className="row justify-content-around mb-0 pt-5 pb-0 ">
