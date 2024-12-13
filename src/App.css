@@ -141,11 +141,11 @@ body{
         width: 100%;
         height: 90vh;
         position: absolute;
-        top: 80px;
+        top: 90px;
         left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
-        background: rgb(230, 239, 244);
+        background: rgb(21, 150, 70);
     }
 
     .nav-menu.active {
@@ -452,7 +452,7 @@ form textarea {
 }
   
 .store_title span {
-    color: rgb(240, 46, 35);
+    color: rgb(21, 150, 70);
     font-style: italic;
 }
   
@@ -481,22 +481,15 @@ form textarea {
     text-align: center;
     gap: 20px;
 }
+
   
-@media (max-width: 700px) {
-    .card_container {
-      flex-direction: column;
-      justify-content: flex-start;
-      width: 90%;
-    }
-}
-  
-@media (min-width: 701px) and (max-width: 1100px) {
+/* @media (min-width: 701px) and (max-width: 1100px) {
     .card_container {
       flex-direction: column;
       align-items: center;
       width: 80%;
     }
-}
+} */
   
 .HomeInfo_card {
     width: 100%;
@@ -550,6 +543,19 @@ form textarea {
 .homeInfo_link:hover {
     color: rgb(5, 12, 30);
     text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .card_container {
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 90%;
+    }
+
+    .HomeInfo_card span{
+        font-size: 40px;
+        height: 100px;
+    }
 }
   
 @media (max-width: 700px) {
@@ -1299,19 +1305,120 @@ form textarea {
     transform: scale(1.05);
 }
 
+.articles {
+    margin: 3%;
+    display: grid;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 30px;
+}
+
+article {
+    --img-scale: 1.001;
+    --link-icon-translate: -20px;
+    --link-icon-opacity: 0;
+    position: relative;
+    border-radius: 16px;
+    box-shadow: none;
+    background: #fff;
+    transform-origin: center;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+}
+  
+article a::after {
+    position: absolute;
+    inset-block: 0;
+    inset-inline: 0;
+    cursor: pointer;
+    content: "";
+}
+
+article h3 {
+    margin: 0 0 18px 0;
+    font-size: 35px;
+    color: rgb(34, 34, 34);
+    transition: color 0.3s ease-out;
+}
+
+article p{
+    font-size: 20px;
+}
+  
+figure {
+    margin: 0;
+    padding: 0;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
+  
+article img {
+    max-width: 100%;
+    width: 100%;
+    transform-origin: center;
+    transform: scale(var(--img-scale));
+    transition: transform 0.4s ease-in-out;
+}
+  
+.article-body {
+    padding: 24px;
+}
+  
+article span {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(21, 150, 70);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+article span:hover{
+    color: rgb(240, 46, 35);
+    text-decoration: underline rgb(240, 46, 35);
+}
+  
+article span:focus {
+    outline: 1px dotted #28666e;
+}
+  
+article span .icon {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    transform: translateX(var(--link-icon-translate));
+    opacity: var(--link-icon-opacity);
+    transition: all 0.3s;
+}
+
+article:has(:hover, :focus) {
+    --img-scale: 1.1;
+    background: rgb(230, 239, 244);
+    --title-color: rgb(21, 150, 70);
+    --link-icon-translate: 0;
+    --link-icon-opacity: 1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
 
 @media screen and (max-width: 600px){
     .goToTop_icon{
+        font-size: 50px;
         right: 0.75em;
         width: 1.5rem;
         bottom: 2rem;
     }
 
     .makeCall_icon{
-        font-size: 3rem;
-        left: 1.5rem;
+        left: 1rem;
         bottom: 2rem;
         animation: none;
+    }
+
+    .makeCall_icon img{
+        width: 60px !important;
     }
 
     .makeCall_icon img{
@@ -1350,6 +1457,93 @@ form textarea {
 
     .ParallaxDiv h2{
         font-size: 60px;
+    }
+
+    .champs_home_info{
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+
+    .champs_info h1{
+        font-size: 50px;
+    }
+
+    .champs_home_info_img img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .champs_home_info_p p{
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .champs_menu_h3 h3{
+        font-size: 30px;
+    }
+
+    .champs_ribbon h4{
+        font-size: 30px;
+        padding-bottom: 25px;
+    }
+
+    .champs_ribbon p{
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+
+    .navbar{
+        justify-content: left;
+    }
+
+    .navbar_color{
+        justify-content: left;
+    }
+
+    .navbar-logo{
+        font-size: 25px;
+    }
+
+    .navbar-logo img{
+        width: 60px;
+    }
+
+    .info h1 {
+        font-size: 60px;
+    }
+
+    .store_title{
+        font-size: 40px;
+    }
+
+    .home_ribbon p{
+        padding-bottom: 20px;
+    }
+
+    .home_ribbon_link{
+        font-size: 20px;
+    }
+
+    .schedule{
+        padding: 50px 0;
+    }
+
+    .schedule h3{
+        font-size: 40px;
+    }
+
+    .schedule p{
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    .links button{
+        font-size: 20px;
+        margin: 0 5px;
+    }
+
+    .schedule_table{
+        width: 90%;
     }
 }
 

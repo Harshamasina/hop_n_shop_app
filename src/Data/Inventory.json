@@ -1,0 +1,63 @@
+{
+    "inventory_products": [
+        {
+            "name": "Fuel",
+            "desc": "Our sinclair gas station provides quality fuel. We have Diesel, Regular, Alcohol and Octane free Premium Gas for Affordable Prices.",
+            "img_url": "https://info.gilbarco.com/hs-fs/hubfs/Sinclair.jpg?width=467&name=Sinclair.jpg",
+            "products": [
+                "Regular","Premium","Diesel"
+            ] 
+        },
+        {
+            "name": "Game Machines and Lottery",
+            "desc": "Our automated game machines allow you to win big. We also sell Missouri Lottery and Scratchers.",
+            "img_url": "https://media.npr.org/assets/img/2022/07/29/ap21188557258852_wide-7b9355bc9f3f776844d5ceb5148fe6d60c40eccd.jpg",
+            "products": ["Slot Machines", "Missouri Lottery", "Scratchers"]
+        },
+        {
+            "name": "Snacks",
+            "desc": "You can buy all types of candies, chocolates, chips, cakes from Hostess to Mr Freshleys.",
+            "img_url": "https://media.timeout.com/images/105688045/750/422/image.jpg",
+            "products": ["Frito Lays Products", "Uncle Rays", "Taki's", "Doritios", "Tostitios", "All types of Chocolates and bars", "Hostess Product", "Mr Freshleys", "JJ Pies", 
+                        "All types of Beef Jerky", "Instant Ramen", "Pretzels", "Cheetos", "Popcorn", "Energy Bars", "Crackers", "Cheese", "Pickles", "Potato Chips", "Pies", "and so on..."]
+        },
+        {
+            "name": "Alcohol",
+            "desc": "Whiskey to Tequila every type of alcohol i all sizes and packaging are available in our gas station for affordable prices.",
+            "img_url": "https://images.foxtv.com/static.fox29.com/www.fox29.com/content/uploads/2024/08/764/432/GettyImages-1922423647-scaled.jpg?ve=1&tl=1",
+            "products": ["Jack Daniels", "Evan Williams", "Jhonnie Walker", "American Honey", "Fireball", "Jim Beam", "99 Vodka", "Smirnoff", "Congress", "Tequila", "Captain Morgan", "UV Blue", 
+                        "Pink Whitney", "Popov", "and so on..."]
+        },
+        {
+            "name": "Tobacco",
+            "desc": "We have all types of Tobacco Products from 24/7 to Marlboro and American Spirit",
+            "img_url": "https://image.cnbcfm.com/api/v1/image/107232975-1682707584809-gettyimages-1486127435-0j5a7452_taucodly.jpeg?v=1688212802&w=720&h=405",
+            "products": ["All trims of Marlboro", "L&M", "Pall Mall", "Camel", "New Port", "American Spirit", "Lucky Strike", "Salem", "24/7", "Decade", "Berleys", "Cheyenne", "and so on ..."]
+        },
+        {
+            "name": "Milk Products",
+            "desc": "We have quality milk products from Hiland and we also sell all type of Cheese",
+            "img_url": "https://arkansasbusiness.wppcdn.com/wp-content/uploads/2013/01/hiland-dairy.jpg",
+            "products": ["Chocolate Milk", "Vitamin D Milk", "2% Milk", "5% Milk", "Strawberry Milk", "Wisconsin Cheese", "Cheddar Cheese"]
+        },
+        {
+            "name": "Refreshments",
+            "desc": "We have large 2 large fountains of Coco-cola and Pepsi. We also sell frosties, 20oz and 1L bottles and 12oz and 16oz Tins. ",
+            "img_url": "https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/cjzngify/6b088f4d-a9c8-490e-ba12-7e8655013c41.jpeg",
+            "products": ["Coco-cola All sizes and Flavours", "Pepsi All sizes and Flavours", "Sprite All sizes and Flavours", "Dr Pepper All sizes and Flavours", "Mountain Dew All sizes and Flavours", "Fanta All sizes",
+                        "Root Beers", "Iced Tea", "Gatorade in all sizes and Flavors", "Propel", "Ice Mountain Water", "Acquafina", "Celsius", "Rockstar Energy All sizes and Flavours", "Monster All sizes and Flavours", "Red Bull All sizes and Flavours"]
+        },
+        {
+            "name": "Coffee",
+            "desc": "We brew fresh coffee daily and we also have iced coffee and also cold coffee from starbucks in all favours and sizes",
+            "img_url": "https://www.tastingtable.com/img/gallery/15-bottled-and-canned-starbucks-coffees-ranked/intro-1688405613.jpg",
+            "products": ["Freshly Brewed Coffee", "Mocha", "Caramel", "White Chocolate", "Doubleshot", "Tripleshot", "Cafe Mocha", "Expresso"]
+        },
+        {
+            "name": "Champs Fried Chicken",
+            "desc": "Champ's Chicken offers a variety of chicken meals, Seafood Meals and Breakfast",
+            "img_url": "https://champschicken.com/wp-content/uploads/2021/10/pixie_1633116348200-1024x576.png",
+            "products": ["Tenders", "Dippers", "Sandwiches", "Fish", "Shrimp", "Biscuits", "Loaded Burrito", "Loaded Bowl"]
+        }
+    ]
+}
