@@ -8,8 +8,8 @@ import { LuMilk } from "react-icons/lu";
 import { RiDrinks2Line } from "react-icons/ri";
 import { CiCoffeeCup } from "react-icons/ci";
 import { GiChickenOven } from "react-icons/gi";
-import { GiCigar } from "react-icons/gi";
 import { HomeCards } from "../Data/HomeCards.json";
+import { LuPizza } from "react-icons/lu";
 
 const HomeInfo = () => {
     const iconMap = {
@@ -22,7 +22,7 @@ const HomeInfo = () => {
         RiDrinks2Line: RiDrinks2Line,
         CiCoffeeCup: CiCoffeeCup,
         GiChickenOven: GiChickenOven,
-        GiCigar: GiCigar,
+        LuPizza: LuPizza,
     };
     
     return (
@@ -36,7 +36,15 @@ const HomeInfo = () => {
                     {
                         HomeCards.map((items, index) => {
                             const IconComponent = iconMap[items.icon_name];
-                            const linkPath = index === 8 ? "/champs_fried_chicken" : "/inventory";
+                            let linkPath;
+                            
+                            if (index === 8) {
+                                linkPath = "/champs_fried_chicken";
+                            } else if (index === 9) {
+                                linkPath = "/hunts_pizza";
+                            } else {
+                                linkPath = "/inventory";
+                            }
                             return (
                                 <div className="HomeInfo_card" key={index}>
                                     <span><IconComponent /></span>

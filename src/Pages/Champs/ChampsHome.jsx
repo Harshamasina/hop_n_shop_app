@@ -1,4 +1,3 @@
-import React from 'react';
 import fried_chicken from '../../assets/fried_chicken.mp4';
 import champs_sandwich from '../../assets/champs_sandwich.png';
 import Champs_Menu from './Champs_Menu';

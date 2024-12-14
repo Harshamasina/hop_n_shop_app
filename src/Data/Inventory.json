@@ -58,6 +58,12 @@
             "desc": "Champ's Chicken offers a variety of chicken meals, Seafood Meals and Breakfast",
             "img_url": "https://champschicken.com/wp-content/uploads/2021/10/pixie_1633116348200-1024x576.png",
             "products": ["Tenders", "Dippers", "Sandwiches", "Fish", "Shrimp", "Biscuits", "Loaded Burrito", "Loaded Bowl"]
+        },
+        {
+            "name": "Hunt Brother's Pizza",
+            "desc": "Hunt Brothers Pizza represents a legacy of pizza in the convenience store industry. Hunt Brothers® Pizza offers 10 toppings to choose from for no extra charge.",
+            "img_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Hunt_Brothers_Pizza_logo.svg",
+            "products": ["Original Crust Pizza (12”)", "Thin Crust Pizza (12”)", "Double Cheese Pizza", "Wings", "Wingbites", "Loaded Pizza", "Lotsa Meat Pizza", "Veggie Pizza", "Breakfast Pizza"]
         }
     ]
 }

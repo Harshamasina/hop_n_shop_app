@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import sinclair_inside_crop from "../../assets/sinclair_inside_crop.jpg";
 import { Parallax } from 'react-parallax';
 import {inventory_products} from '../../Data/Inventory.json';
+import { BsPatchCheck } from "react-icons/bs";
 
 const Inventory = () => {
     const [expanded, setExpaded] = useState(null);
@@ -9,6 +10,7 @@ const Inventory = () => {
     const toggleExpand = (index) => {
         setExpaded(expanded === index ? null : index);
     }
+
     return (
         <div>
             <Parallax bgImage={sinclair_inside_crop} strength={200} bgImageAlt="parallaximg" blur={2}>
@@ -41,7 +43,10 @@ const Inventory = () => {
                                                 <ul>
                                                     {
                                                         data.products.map((product, idx) => (
-                                                            <li key={idx}>{product}</li>
+                                                            <div className='products_list'>
+                                                                <span><BsPatchCheck /></span>
+                                                                <li key={idx}>{product}</li>
+                                                            </div>
                                                         ))
                                                     }
                                                 </ul>

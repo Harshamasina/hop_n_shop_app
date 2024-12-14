@@ -8,6 +8,7 @@ import { FiAlignRight, FiXCircle, FiChevronDown } from "react-icons/fi";
 import sinclair_logo from '../assets/sinclair_logo.PNG';
 import Error404 from '../Pages/Error404';
 import About_Us from '../Pages/About_Us';
+import HuntsPizza from '../Pages/HuntsPizza';
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
@@ -72,22 +73,26 @@ const Navbar = () => {
                             }
                         </li> */}
 
-                        <li className='nav-item dropdown'
+                        {/* <li className='nav-item dropdown'
                             onMouseEnter={() => setChampsDropdown(true)}
                             onMouseLeave={() => setChampsDropdown(false)}>
-                            <Link to='/champs_fried_chicken' className='nav-links' onClick={closeMobileMenu}>
-                                Champs Fried Chicken 
-                                {/* <FiChevronDown /> */}
-                            </Link>
-                            {/* {
+                            {
                                 champsDropdown && (
                                     <ul className='dropdown-menu'>
                                         <li><a href='#about_champs' className='dropdown-link' onClick={closeMobileMenu}>About Champs Fried Chicken</a></li>
                                         <li><a href='#menu' className='dropdown-link' onClick={closeMobileMenu}>Chicken Menu</a></li>
                                     </ul>
                                 )
-                            } */}
-                        </li>
+                            }
+                        </li> */}
+
+                        <Link to='/champs_fried_chicken' className='nav-links' onClick={closeMobileMenu}>
+                            Champs Fried Chicken 
+                        </Link>
+
+                        <Link to='/hunts_pizza' className='nav-links' onClick={closeMobileMenu}>
+                            Hunt Brother's Pizza
+                        </Link>
 
                         <li className='nav-item'>
                             <a href='#contact' className='nav-links-btn' onClick={closeMobileMenu}>Contact Us</a>
@@ -103,6 +108,7 @@ const Navbar = () => {
                     <Route path='/about_us' element={<About_Us />} />
                     <Route path='/inventory' element={<Inventory />} />
                     <Route path='/champs_fried_chicken' element={<ChampsHome />} />
+                    <Route path='/hunts_pizza' element={<HuntsPizza />} />
                     <Route path='/contact_us' element={<Contact />} />
                     <Route path='*' element={<Error404 />} />
                 </Routes>
