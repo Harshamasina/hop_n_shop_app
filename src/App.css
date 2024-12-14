@@ -1496,6 +1496,14 @@ article:has(:hover, :focus) {
     font-size: 50px;
     font-weight: 600;
     text-align: center;
+    border: 2px solid rgb(21, 150, 70);
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px 10px;
+    margin-bottom: 3%;
+    border-radius: 40px;
+    color: rgb(230, 239, 244);
+    background: rgb(21, 150, 70);
 }
 
 .hunts_menu img{
@@ -1505,6 +1513,83 @@ article:has(:hover, :focus) {
     justify-content: center;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.hunts_ribbon {
+    width: 100%;
+    padding: 120px 0;
+    text-align: center;
+    position: relative;
+    background: url('./assets/pep_pizza.jpg') no-repeat center/cover;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    overflow: hidden;
+}
+
+.hunts_ribbon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(5, 12, 30, 0.5);
+    z-index: 1;
+}
+
+.hunts_ribbon h4,
+.hunts_ribbon p {
+    position: relative;
+    z-index: 2;
+}
+
+.hunts_ribbon h4 {
+    color: rgb(21, 150, 70);
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 1.3px;
+    line-height: 1;
+}
+
+.hunts_ribbon p {
+    color: rgb(230, 239, 244);
+    font-size: 25px;
+    line-height: 1.7;
+    font-weight: 600;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+.hunts_ribbon a{
+    position: relative;
+    z-index: 2;
+    color: rgb(230, 239, 244) !important;
+    padding: 10px 15px 10px 15px;
+    border: 2px solid rgb(21, 150, 70);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.hunts_ribbon a:hover{
+    background: rgb(21, 150, 70);
+    color: rgb(230, 239, 244);
+    transition: 0.3s ease-in-out;
+    border: 2px solid rgb(21, 150, 70);
+}
+
+@media (max-width: 850px) {
+    .hunts_ribbon h2 {
+        font-size: 30px;
+    }
+    .hunts_ribbon p {
+        padding: 0 20px;
+    }
+    .hunts_ribbon p br {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -1566,6 +1651,10 @@ article:has(:hover, :focus) {
     .champs_home_info{
         flex-direction: column;
         margin-bottom: 5%;
+    }
+
+    .champs_info{
+        max-width: 100%;
     }
 
     .champs_info h1{
@@ -1652,6 +1741,50 @@ article:has(:hover, :focus) {
 
     .articles{
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .hunts_ribbon h4{
+        font-size: 30px;
+        padding-bottom: 25px;
+    }
+
+    .hunts_ribbon p{
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+
+    .hunts_pizza_container{
+        flex-direction: column;
+    }
+
+    .hunts_pizza_img img{
+        width: 100%;
+    }
+
+    .hunts_info h1{
+        font-size: 50px;
+    }
+
+    .hunts_menu{
+        padding: 10px;
+    }
+
+    .hunts_menu img{
+        width: 100%;
+    }
+
+    .hunts_info h1{
+        font-size: 50px;
+    }
+
+    .hunts_pizza_p p{
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .hunts_menu h4{
+        font-size: 30px;
+        width: 50%;
     }
 }
 
