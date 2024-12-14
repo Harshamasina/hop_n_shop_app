@@ -1,5 +1,6 @@
 import pizza_cutting from "../assets/pizza_cutting.mp4";
 import Hunts_Pizza_Menu from "../Components/Hunts_Pizza_Menu";
+import hunts_pizza from "../assets/hunts_pizza.jpg";
 
 const HuntsPizza = () => {
     return (
@@ -15,7 +16,19 @@ const HuntsPizza = () => {
                 </video>
             </section>
 
+            <section className="hunts_pizza_container">
+                <div className="hunts_pizza_img">
+                    <img src={hunts_pizza} alt="hunts_pizza" />
+                </div>
+                <div className="hunts_pizza_p">
+                    <p><span>Hunt Brothers Pizza</span> represents a legacy of pizza in the convenience store industry. Each and every day, our team of pizza professionals come together to support our store partners in providing the best pizza in their town. </p>
+                    <p>We stay committed to offering top quality ingredients and exceptional flavor that far exceed your expectations. We are able to offer the best pizza value in town at over 10,000 locations across 33 states</p>
+                </div>
+            </section>
+
             <Hunts_Pizza_Menu />
+
+            
         </div>
     )
 };

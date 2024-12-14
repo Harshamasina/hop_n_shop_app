@@ -91,7 +91,7 @@ const Navbar = () => {
                         </Link>
 
                         <Link to='/hunts_pizza' className='nav-links' onClick={closeMobileMenu}>
-                            Hunt Brother's Pizza
+                            Hunt Brothers Pizza
                         </Link>
 
                         <li className='nav-item'>

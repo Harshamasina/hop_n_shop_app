@@ -1458,6 +1458,55 @@ article:has(:hover, :focus) {
     font-size: 25px;
 }
 
+.hunts_pizza_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 90%;
+    /* margin: 3%; */
+    gap: 30px;
+}
+
+.hunts_pizza_img img{
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.hunts_pizza_p p{
+    font-size: 25px;
+}
+
+.hunts_pizza_p span{
+    font-weight: 700;
+    color: rgb(21, 150, 70);
+}
+
+.hunts_menu{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.hunts_menu h4{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.hunts_menu img{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
 @media screen and (max-width: 600px){
     .goToTop_icon{
         font-size: 50px;
