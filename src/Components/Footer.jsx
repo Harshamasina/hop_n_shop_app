@@ -75,8 +75,8 @@ const Footer = () => {
                                         <ul className="list-unstyled">
                                             <li className="footer_headings mt-md-3 mt-4">Contact Details</li>
                                             <li className='footer_info'>Pramod Situala</li>
-                                            <li className='footer_info'>path2way@gmail.com</li>
-                                            <li className='footer_info'><a>+15733647400</a></li>
+                                            <li className='footer_info'>Pathwaymo2003@gmail.com</li>
+                                            <li className='footer_info'><a>+1 (573)-364-7400</a></li>
                                         </ul>
                                     </div>
                                 </div>  

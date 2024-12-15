@@ -12,15 +12,10 @@ import HuntsPizza from '../Pages/HuntsPizza';
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
-    const [servicesDropdown, setServicesDropdown] = useState(false);
-    const [champsDropdown, setChampsDropdown] = useState(false);
     const [changeNavbar, setChangeNavbar] = useState(false);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
-
-    const toggleServicesDropdown = () => setServicesDropdown(!servicesDropdown);
-    const toggleChampsDropdown = () => setChampsDropdown(!champsDropdown);
 
     const changeBackground = () => {
         if(window.scrollY >= 80){
@@ -38,6 +33,7 @@ const Navbar = () => {
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
                         Hop'n Shop & <img src={sinclair_logo} alt="Logo" />
                     </Link>
+                    
                     <div className='menu-icon' onClick={handleClick}>
                         {click ? <FiXCircle /> : <FiAlignRight />}
                     </div>
@@ -54,45 +50,18 @@ const Navbar = () => {
                         <li className='nav-item'>
                             <Link to='/inventory' className='nav-links' onClick={closeMobileMenu}>Inventory</Link>
                         </li>
-
-                        {/* <li className='nav-item dropdown' onMouseEnter={toggleServicesDropdown} onMouseLeave={toggleServicesDropdown}>
-                            <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
-                                Services <FiChevronDown />
+                        
+                        <li className='nav-item'>
+                            <Link to='/champs_fried_chicken' className='nav-links' onClick={closeMobileMenu}>
+                                Champs Fried Chicken 
                             </Link>
-                            {
-                                servicesDropdown && (
-                                    <ul className='dropdown-menu'>
-                                        <li>
-                                            <Link to='/services' className='dropdown-link' onClick={closeMobileMenu}>About Us</Link>
-                                        </li>
-                                        <li>
-                                            <Link to='/inventory' className='dropdown-link' onClick={closeMobileMenu}>Inventory</Link>
-                                        </li>
-                                    </ul>
-                                )
-                            }
-                        </li> */}
+                        </li>
 
-                        {/* <li className='nav-item dropdown'
-                            onMouseEnter={() => setChampsDropdown(true)}
-                            onMouseLeave={() => setChampsDropdown(false)}>
-                            {
-                                champsDropdown && (
-                                    <ul className='dropdown-menu'>
-                                        <li><a href='#about_champs' className='dropdown-link' onClick={closeMobileMenu}>About Champs Fried Chicken</a></li>
-                                        <li><a href='#menu' className='dropdown-link' onClick={closeMobileMenu}>Chicken Menu</a></li>
-                                    </ul>
-                                )
-                            }
-                        </li> */}
-
-                        <Link to='/champs_fried_chicken' className='nav-links' onClick={closeMobileMenu}>
-                            Champs Fried Chicken 
-                        </Link>
-
-                        <Link to='/hunts_pizza' className='nav-links' onClick={closeMobileMenu}>
-                            Hunt Brothers Pizza
-                        </Link>
+                        <li className='nav-item'>
+                            <Link to='/hunts_pizza' className='nav-links' onClick={closeMobileMenu}>
+                                Hunt Brothers Pizza
+                            </Link>
+                        </li>
 
                         <li className='nav-item'>
                             <a href='#contact' className='nav-links-btn' onClick={closeMobileMenu}>Contact Us</a>
