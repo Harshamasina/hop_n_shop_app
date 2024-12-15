@@ -1,10 +1,17 @@
 import pizza_cutting from "../assets/pizza_cutting.mp4";
 import Hunts_Pizza_Menu from "../Components/Hunts_Pizza_Menu";
 import hunts_pizza from "../assets/hunts_pizza.jpg";
+import { Helmet } from 'react-helmet';
 
 const HuntsPizza = () => {
     return (
         <div>
+            <Helmet>
+                <title>Hunt Brothers Pizza | Hop'n Shop #32 & Sinclair</title>
+                <meta name="description" content="see our Menu of Pizzas and Bites" />
+                <meta name='keywords' content='' />
+            </Helmet>
+
             <section className='champs_main'>
                 <div className='champs_overlay'></div>
                 <div className='hunts_info'>

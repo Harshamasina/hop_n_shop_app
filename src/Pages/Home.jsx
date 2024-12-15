@@ -3,10 +3,17 @@ import gas_pumping from '../assets/gas_pumping.mp4';
 import HomeInfo from '../Components/HomeInfo';
 import HomeRibbon from '../Components/HomeRibbon';
 import HomeTable from '../Components/HomeTable';
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
     return (
         <div>
+            <Helmet>
+                <title>Home | Hop'n Shop #32 & Sinclair</title>
+                <meta name="description" content="Welcome to Hop'n Shop #32 & Sinclair. Know more about Us" />
+                <meta name='keywords' content="Hop'n Shop #32 & Sinclair" />
+            </Helmet>
+
             <section className='main'>
                 <div className='overlay'></div>
                 <div className='info'>

@@ -2,10 +2,17 @@ import fried_chicken from '../../assets/fried_chicken.mp4';
 import champs_sandwich from '../../assets/champs_sandwich.png';
 import Champs_Menu from './Champs_Menu';
 import ChampsRibbon from './ChampsRibbon';
+import { Helmet } from 'react-helmet';
 
 const champsHome = () => {
     return (
         <div>
+            <Helmet>
+                <title>Champs Chicken | Hop'n Shop #32 & Sinclair</title>
+                <meta name="description" content="" />
+                <meta name='keywords' content='' />
+            </Helmet>
+            
             <section className='champs_main'>
                 <div className='champs_overlay'></div>
                 <div className='champs_info'>

@@ -3,6 +3,7 @@ import sinclair_inside_crop from "../../assets/sinclair_inside_crop.jpg";
 import { Parallax } from 'react-parallax';
 import {inventory_products} from '../../Data/Inventory.json';
 import { BsPatchCheck } from "react-icons/bs";
+import { Helmet } from 'react-helmet';
 
 const Inventory = () => {
     const [expanded, setExpaded] = useState(null);
@@ -13,6 +14,12 @@ const Inventory = () => {
 
     return (
         <div>
+            <Helmet>
+                <title> | Hop'n Shop #32 & Sinclair</title>
+                <meta name="description" content="" />
+                <meta name='keywords' content='' />
+            </Helmet>
+
             <Parallax bgImage={sinclair_inside_crop} strength={200} bgImageAlt="parallaximg" blur={2}>
                 <div className='ParallaxContainer1'>
                     <div className="ParallaxDiv">
