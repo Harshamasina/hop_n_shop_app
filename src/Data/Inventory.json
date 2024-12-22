@@ -9,6 +9,12 @@
             ] 
         },
         {
+            "name": "Automotive Products",
+            "desc": "Our sinclair gas station provides quality Engine Oil from Sinclair and other brands, and other automotive products.",
+            "img_url": "https://lasalleoil.com/wp-content/uploads/2018/02/Sinclair_AmalieOil_LasalleOil.jpg",
+            "products": ["Motor Oil", "5W - 20", "5W - 30", "5W - 40", "10W - 30", "PSF", "2 Cycle Engine Oil","Windshield cleaning fluid","Jumper Cables", "Tire Patch Kits", "Antifreeze", "Lubricants"] 
+        },
+        {
             "name": "Game Machines and Lottery",
             "desc": "Our automated game machines allow you to win big. We also sell Missouri Lottery and Scratchers.",
             "img_url": "https://media.npr.org/assets/img/2022/07/29/ap21188557258852_wide-7b9355bc9f3f776844d5ceb5148fe6d60c40eccd.jpg",
@@ -52,6 +58,13 @@
             "desc": "We brew fresh coffee daily and we also have iced coffee and also cold coffee from starbucks in all favours and sizes",
             "img_url": "https://www.tastingtable.com/img/gallery/15-bottled-and-canned-starbucks-coffees-ranked/intro-1688405613.jpg",
             "products": ["Freshly Brewed Coffee", "Mocha", "Caramel", "White Chocolate", "Doubleshot", "Tripleshot", "Cafe Mocha", "Expresso"]
+        },
+        {
+            "name": "Drugs and Supplies",
+            "desc": "we also handy remedies to conquer a cold, allergy or headache",
+            "img_url": "https://www.lildrugstore.com/application/files/6116/5790/4863/New-Group.jpg",
+            "products": ["Hydrogen peroxide", "Nasal Spray", "Cold & Flu Nighttime", "Sleep Aid", "Allergy", "Sinus Serve", "Stomach Ache", "Bandages", "Pain & Fever", "Ibuprofen", "Advil", "Aleve", "Bayer", "Excedrin", "Bayer",
+                        "Vicks DayQuill", "NyQuill", "Nail cutters", "Tums", "Sticks", "Pads", "Tampons", "Safety Gloves", "Chap sticks", "Body Wash", "Tooth Paste and brush", "Napkins", "Wet Wipes", "Ispropyl Alcohol", "Halls", "Excedrin", "Vaporub"]
         },
         {
             "name": "Champs Fried Chicken",
