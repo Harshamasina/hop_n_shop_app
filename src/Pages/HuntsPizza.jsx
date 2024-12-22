@@ -41,7 +41,7 @@ const HuntsPizza = () => {
                 <h4>All Toppings, No Extra Charge</h4>
                 <p>Hunt Brothers doesn't actually have their own locations. They just take a little pizza stand and put it into our gas station.</p>
                 <p>Visit Hop'n Shop Sinclair Gas Station in Rolla, Missouri and have some delicious pizza.</p>
-                <a href='https://www.huntbrotherspizza.com/' target='_blank'>Discover More About Hunt Brothers Pizza</a>
+                <a href='https://www.huntbrotherspizza.com/' target='_blank'>Discover More</a>
             </section>
         </div>
     )

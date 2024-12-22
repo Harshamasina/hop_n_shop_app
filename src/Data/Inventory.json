@@ -24,21 +24,28 @@
             "name": "Snacks",
             "desc": "You can buy all types of candies, chocolates, chips, cakes from Hostess to Mr Freshleys.",
             "img_url": "https://media.timeout.com/images/105688045/750/422/image.jpg",
-            "products": ["Frito Lays Products", "Uncle Rays", "Taki's", "Doritios", "Tostitios", "All types of Chocolates and bars", "Hostess Product", "Mr Freshleys", "JJ Pies", 
+            "products": ["Frito Lays Products", "Uncle Rays", "Taki's", "Doritios", "Tostitios", "All types of Chocolates and bars", "Hostess Product", "All types of Gummies", "Chews", "Chewing gums", "Mints", "Ice breakers", "Mr Freshleys", "JJ Pies", 
                         "All types of Beef Jerky", "Instant Ramen", "Pretzels", "Cheetos", "Popcorn", "Energy Bars", "Crackers", "Cheese", "Pickles", "Potato Chips", "Pies", "and so on..."]
         },
         {
             "name": "Alcohol",
-            "desc": "Whiskey to Tequila every type of alcohol i all sizes and packaging are available in our gas station for affordable prices.",
+            "desc": "Whiskey to Tequila every type of alcohol in all sizes and packaging are available in our gas station for affordable prices.",
             "img_url": "https://images.foxtv.com/static.fox29.com/www.fox29.com/content/uploads/2024/08/764/432/GettyImages-1922423647-scaled.jpg?ve=1&tl=1",
-            "products": ["Jack Daniels", "Evan Williams", "Jhonnie Walker", "American Honey", "Fireball", "Jim Beam", "99 Vodka", "Smirnoff", "Congress", "Tequila", "Captain Morgan", "UV Blue", 
+            "products": ["Jack Daniels", "Evan Williams", "Jhonnie Walker", "American Honey", "Crown Royal", "Big Machine Vodka","Fireball", "Jim Beam", "99 Vodka", "Smirnoff","Bartons", "Congress", "Tequila", "Captain Morgan", "UV Blue", 
                         "Pink Whitney", "Popov", "and so on..."]
         },
         {
             "name": "Tobacco",
             "desc": "We have all types of Tobacco Products from 24/7 to Marlboro and American Spirit",
             "img_url": "https://image.cnbcfm.com/api/v1/image/107232975-1682707584809-gettyimages-1486127435-0j5a7452_taucodly.jpeg?v=1688212802&w=720&h=405",
-            "products": ["All trims of Marlboro", "L&M", "Pall Mall", "Camel", "New Port", "American Spirit", "Lucky Strike", "Salem", "24/7", "Decade", "Berleys", "Cheyenne", "and so on ..."]
+            "products": ["All trims of Marlboro", "L&M", "Pall Mall", "Camel", "New Port", "American Spirit", "Lucky Strike", "Salem", "24/7", "Decade", "Berleys", "Cheyenne", 
+                        "Swisher Sweets", "White Owl", "Backwoods", "Black & Mild", "Plastic Tip", "Wood Tip", "Dutch", "BLK", "Game", "Show", "Zig Zag", "Raw", "Wraps and Cones", "and so on ..."]
+        },
+        {
+            "name": "Chewing Tobacco",
+            "desc": "We have all types of chewing Tobacco Products and pouches from Copenhagen to Zyn",
+            "img_url": "https://makesmokinghistory.org/wp-content/uploads/2016/03/chewing-tobacco.png",
+            "products": ["Copenhagen", "Grizzly", "Skoal", "Snus", "ON", "Husky", "Longhorn", "Zyn", "Red Seal", "Strips", "Cow Boy", "Vuse", "Rouge", "Zone", "Velo"]
         },
         {
             "name": "Milk Products",
