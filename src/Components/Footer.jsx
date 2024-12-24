@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import sinclair_logo from '../assets/sinclair_logo.PNG';
+import sinclair_logo from '../assets/sinclair_logo.png';
 import GoToTopAnimation from './GoToTopAnimation';
 
 const Footer = () => {
