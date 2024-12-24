@@ -5,7 +5,7 @@ import Inventory from '../Pages/Sinclair/Inventory';
 import Contact from '../Pages/Contact';
 import ChampsHome from '../Pages/Champs/ChampsHome';
 import { FiAlignRight, FiXCircle, FiChevronDown } from "react-icons/fi";
-import sinclair_logo from '../assets/sinclair_logo.PNG';
+import sinclair_logo from '../assets/sinclair_logo.png';
 import Error404 from '../Pages/Error404';
 import About_Us from '../Pages/About_Us';
 import HuntsPizza from '../Pages/HuntsPizza';
