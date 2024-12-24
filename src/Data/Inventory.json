@@ -5,7 +5,7 @@
             "desc": "Our sinclair gas station provides quality fuel. We have Diesel, Regular, Alcohol and Octane free Premium Gas for Affordable Prices.",
             "img_url": "https://info.gilbarco.com/hs-fs/hubfs/Sinclair.jpg?width=467&name=Sinclair.jpg",
             "products": [
-                "Regular","Premium","Diesel"
+                "Regular","Premium (Ethanol Free)","Diesel"
             ] 
         },
         {
@@ -33,6 +33,12 @@
             "img_url": "https://images.foxtv.com/static.fox29.com/www.fox29.com/content/uploads/2024/08/764/432/GettyImages-1922423647-scaled.jpg?ve=1&tl=1",
             "products": ["Jack Daniels", "Evan Williams", "Jhonnie Walker", "American Honey", "Crown Royal", "Big Machine Vodka","Fireball", "Jim Beam", "99 Vodka", "Smirnoff","Bartons", "Congress", "Tequila", "Captain Morgan", "UV Blue", 
                         "Pink Whitney", "Popov", "and so on..."]
+        },
+        {
+            "name": "Beer",
+            "desc": "We have all variety of beers and IPA's. We alos have beers all kinds of beers in all sizes of cans and all bottles",
+            "img_url": "https://punchdrink.com/wp-content/uploads/2018/05/Article-Best-Regional-Lager-Beer-Budweiser.jpg?w=1024",
+            "products": ["Yuengling", "Blue Ribbon", "Budweiser", "Bush", "Lone Star", "Miller Lite", "Samuel Adams", "Coors", "Heinken", "Corona Extra", "Modelo", "Stella Artos", "Blue Moon", "Twisted Tea", "Bud Light", "Angry Orchard", "Michelob Ultra", "Natural light"]
         },
         {
             "name": "Tobacco",

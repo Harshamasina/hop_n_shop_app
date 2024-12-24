@@ -1561,6 +1561,122 @@ article:has(:hover, :focus) {
     }
 }
 
+.img_box_card_container{
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px;
+    margin-top: 3%;
+}
+
+.img_box_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.img_box_heading h3{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    color: rgb(21, 150, 70);
+    border-bottom: 5px solid rgb(21, 150, 70);
+    display: inline;
+    padding-bottom: 10px;
+}
+
+.img_box_card{
+    width: 80%;
+    height: 800px;
+    aspect-ratio: 1 / 0.7;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, .15);
+}
+
+.img_box_card::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    /* border: 2px solid #f2f2f2; */
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.img_box_card:hover::after {
+    opacity: 1;
+}
+
+.img_box{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.img_box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 90%;
+    border-radius: inherit;
+    transition: 0.5s ease-in-out;
+}
+
+.img_box_card:hover img {
+    opacity: 0.8;
+}
+
+.img_box_card:hover img:hover {
+    filter: grayscale(1) brightness(1);
+}
+
+.img_box_content{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.img_box_content h3{
+    opacity: 0;
+    transition: 0.4s 0.2s ease;
+    margin-bottom: 12px;
+    scale: 0.7;
+    font-size: 5vw;
+    font-weight: 600;
+    color: rgb(230, 239, 244);
+}
+
+.img_box_content p{
+    opacity: 0;
+    transition: 0.4s 0.2s ease;
+    line-height: 1.5;
+    font-weight: 600;
+    color: rgb(230, 239, 244);
+    transform: translateY(50%);
+    font-size: 2vw;
+}
+
+.img_box_card:hover .img_box_content h3{
+    scale: 1;
+    opacity: 1;
+}
+
+.img_box_card:hover .img_box_content p{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Keyframes for slide animation */
+@keyframes slideAnimation {
+    0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
 @media screen and (max-width: 600px){
     .goToTop_icon{
         font-size: 50px;
@@ -1755,6 +1871,23 @@ article:has(:hover, :focus) {
     .hunts_menu h4{
         font-size: 30px;
         width: 50%;
+    }
+
+    .img_box_card{
+        width:100%;
+        height: 400px;
+    }
+
+    .img_box_content h3{
+        font-size: 5vh;
+    }
+
+    .img_box_content p{
+        font-size: 2.5vh;
+    }
+
+    .img_box_heading h3{
+        font-size: 30px;
     }
 }
 

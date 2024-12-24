@@ -17,6 +17,7 @@ const HuntsPizza = () => {
                 <div className='hunts_info'>
                     <p>Italian Trio Pizza</p>
                     <h1>HUNT <span>BROTHERS</span> PIZZA</h1>
+                    <p>Coming Soon!</p>
                 </div>
                 
                 <video className='champs_video-bg' autoPlay muted loop>

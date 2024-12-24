@@ -18,6 +18,7 @@ const champsHome = () => {
                 <div className='champs_info'>
                     <p>Be a Mealtime HERO.</p>
                     <h1>CHAMPS <span>CHICKEN</span></h1>
+                    <p>Coming Soon!</p>
                     {/* <a href='#menu' className='champs_home_btn'>See our Menu</a> */}
                 </div>
                 <video className='champs_video-bg' autoPlay muted loop>

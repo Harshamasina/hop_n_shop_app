@@ -4,6 +4,7 @@ import HomeInfo from '../Components/HomeInfo';
 import HomeRibbon from '../Components/HomeRibbon';
 import HomeTable from '../Components/HomeTable';
 import { Helmet } from 'react-helmet';
+import WalkInCoolers from '../Components/WalkInCoolers';
 
 const Home = () => {
     return (
@@ -29,6 +30,7 @@ const Home = () => {
             <HomeInfo />
             <HomeRibbon />
             <HomeTable />
+            <WalkInCoolers />
         </div>
     )
 };
