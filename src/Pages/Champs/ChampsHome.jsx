@@ -5,6 +5,7 @@ import ChampsRibbon from './ChampsRibbon';
 import { Helmet } from 'react-helmet';
 
 const champsHome = () => {
+    const vid ="https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/fried_chicken_1.mp4";
     return (
         <div>
             <Helmet>
@@ -22,13 +23,13 @@ const champsHome = () => {
                     {/* <a href='#menu' className='champs_home_btn'>See our Menu</a> */}
                 </div>
                 <video className='champs_video-bg' autoPlay muted loop>
-                    <source src={fried_chicken} type='video/mp4' />
+                    <source src={vid} type='video/mp4' />
                 </video>
             </section>
 
             <div className='champs_home_info' id="about_champs" >
                 <div className='champs_home_info_img'>
-                    <img src={champs_sandwich} alt='' />
+                    <img src="https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/champs_sandwich.png" alt='' />
                 </div>
 
                 <div className='champs_home_info_p'>

@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import sinclair_logo from '../assets/sinclair_logo.png';
 import GoToTopAnimation from './GoToTopAnimation';
 
 const Footer = () => {
@@ -39,7 +38,7 @@ const Footer = () => {
                                     <div className="col-md-3 col-12 font-italic align-items-center  mt-md-3 mt-4">
                                         <h5>
                                             Hop'n Shop &
-                                            <span> <img src={sinclair_logo} className="img-fluid mb-1 "  /></span>
+                                            <span> <img src="https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/sinclair_logo.png" className="img-fluid mb-1 "  /></span>
                                         </h5>
                                         <p className="social mt-md-3 mt-2"> 
                                             <span><FaFacebookF className='fa' /></span>  
@@ -71,14 +70,14 @@ const Footer = () => {
                                         </ul>
                                     </div>
 
-                                    <div className="col-xl-auto col-md-3 col-12 my-sm-0 mt-5">
+                                    {/* <div className="col-xl-auto col-md-3 col-12 my-sm-0 mt-5">
                                         <ul className="list-unstyled">
                                             <li className="footer_headings mt-md-3 mt-4">Contact Details</li>
                                             <li className='footer_info'>Pramod Situala</li>
                                             <li className='footer_info'>Pathwaymo2003@gmail.com</li>
                                             <li className='footer_info'><a>+1 (573)-364-7400</a></li>
                                         </ul>
-                                    </div>
+                                    </div> */}
                                 </div>  
                             </div>
                         </div> 

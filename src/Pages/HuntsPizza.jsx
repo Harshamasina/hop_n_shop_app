@@ -1,6 +1,4 @@
-import pizza_cutting from "../assets/pizza_cutting.mp4";
 import Hunts_Pizza_Menu from "../Components/Hunts_Pizza_Menu";
-import hunts_pizza from "../assets/hunts_pizza.jpg";
 import { Helmet } from 'react-helmet';
 
 const HuntsPizza = () => {
@@ -21,13 +19,13 @@ const HuntsPizza = () => {
                 </div>
                 
                 <video className='champs_video-bg' autoPlay muted loop>
-                    <source src={pizza_cutting} type='video/mp4' />
+                    <source src="https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/pizza_cutting.mp4" type='video/mp4' />
                 </video>
             </section>
 
             <section className="hunts_pizza_container">
                 <div className="hunts_pizza_img">
-                    <img src={hunts_pizza} alt="hunts_pizza" />
+                    <img src="https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/hunts_pizza.jpg" alt="hunts_pizza" />
                 </div>
 
                 <div className="hunts_pizza_p">

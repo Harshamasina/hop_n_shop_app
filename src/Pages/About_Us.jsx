@@ -1,10 +1,10 @@
 import React from 'react';
-import restored_sinclair from '../assets/restored_sinclair.jpeg';
 import { Parallax } from 'react-parallax';
 import AboutInfo from '../Components/AboutInfo';
 import { Helmet } from 'react-helmet';
 
 const About_Us = () => {
+    const img ="https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/restored_sinclair.jpeg"
   return (
     <div>
         <Helmet>
@@ -13,7 +13,7 @@ const About_Us = () => {
             <meta name='keywords' content="Hop'n Shop #32 & Sinclair" />
         </Helmet>
 
-        <Parallax bgImage={restored_sinclair} strength={200} bgImageAlt="parallaximg" blur={1}>
+        <Parallax bgImage={img} strength={200} bgImageAlt="parallaximg" blur={1}>
             <div className='ParallaxContainer1'>
                 <div className="ParallaxDiv">
                     <div className='ParallaxPageContent'>

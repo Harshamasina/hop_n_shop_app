@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import sinclair_inside_crop from "../../assets/sinclair_inside_crop.jpg";
 import { Parallax } from 'react-parallax';
 import {inventory_products} from '../../Data/Inventory.json';
 import { BsPatchCheck } from "react-icons/bs";
@@ -7,6 +6,7 @@ import { Helmet } from 'react-helmet';
 
 const Inventory = () => {
     const [expanded, setExpaded] = useState(null);
+    const img = "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/sinclair_inside_crop.jpg";
 
     const toggleExpand = (index) => {
         setExpaded(expanded === index ? null : index);
@@ -20,7 +20,7 @@ const Inventory = () => {
                 <meta name='keywords' content='' />
             </Helmet>
 
-            <Parallax bgImage={sinclair_inside_crop} strength={200} bgImageAlt="parallaximg" blur={2}>
+            <Parallax bgImage={img} strength={200} bgImageAlt="parallaximg" blur={2}>
                 <div className='ParallaxContainer1'>
                     <div className="ParallaxDiv">
                         <div className='ParallaxPageContent'>

@@ -3,7 +3,7 @@
         {
             "name": "Fuel",
             "desc": "Our sinclair gas station provides quality fuel. We have Diesel, Regular, Alcohol and Octane free Premium Gas for Affordable Prices.",
-            "img_url": "https://info.gilbarco.com/hs-fs/hubfs/Sinclair.jpg?width=467&name=Sinclair.jpg",
+            "img_url": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/IP_1.webp",
             "products": [
                 "Regular","Premium (Ethanol Free)","Diesel"
             ] 
@@ -11,78 +11,78 @@
         {
             "name": "Automotive Products",
             "desc": "Our sinclair gas station provides quality Engine Oil from Sinclair and other brands, and other automotive products.",
-            "img_url": "https://lasalleoil.com/wp-content/uploads/2018/02/Sinclair_AmalieOil_LasalleOil.jpg",
+            "img_url": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/IP_2.jpg",
             "products": ["Motor Oil", "5W - 20", "5W - 30", "5W - 40", "10W - 30", "PSF", "2 Cycle Engine Oil","Windshield cleaning fluid","Jumper Cables", "Tire Patch Kits", "Antifreeze", "Lubricants"] 
         },
         {
             "name": "Game Machines and Lottery",
             "desc": "Our automated game machines allow you to win big. We also sell Missouri Lottery and Scratchers.",
-            "img_url": "https://media.npr.org/assets/img/2022/07/29/ap21188557258852_wide-7b9355bc9f3f776844d5ceb5148fe6d60c40eccd.jpg",
+            "img_url": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/IP_3.jpg",
             "products": ["Slot Machines", "Missouri Lottery", "Scratchers"]
         },
         {
             "name": "Snacks",
             "desc": "You can buy all types of candies, chocolates, chips, cakes from Hostess to Mr Freshleys.",
-            "img_url": "https://media.timeout.com/images/105688045/750/422/image.jpg",
+            "img_url": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/IP_4.jpg",
             "products": ["Frito Lays Products", "Uncle Rays", "Taki's", "Doritios", "Tostitios", "All types of Chocolates and bars", "Hostess Product", "All types of Gummies", "Chews", "Chewing gums", "Mints", "Ice breakers", "Mr Freshleys", "JJ Pies", 
                         "All types of Beef Jerky", "Instant Ramen", "Pretzels", "Cheetos", "Popcorn", "Energy Bars", "Crackers", "Cheese", "Pickles", "Potato Chips", "Pies", "and so on..."]
         },
         {
             "name": "Alcohol",
             "desc": "Whiskey to Tequila every type of alcohol in all sizes and packaging are available in our gas station for affordable prices.",
-            "img_url": "https://images.foxtv.com/static.fox29.com/www.fox29.com/content/uploads/2024/08/764/432/GettyImages-1922423647-scaled.jpg?ve=1&tl=1",
+            "img_url": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/IP_5.webp",
             "products": ["Jack Daniels", "Evan Williams", "Jhonnie Walker", "American Honey", "Crown Royal", "Big Machine Vodka","Fireball", "Jim Beam", "99 Vodka", "Smirnoff","Bartons", "Congress", "Tequila", "Captain Morgan", "UV Blue", 
                         "Pink Whitney", "Popov", "and so on..."]
         },
         {
             "name": "Beer",
             "desc": "We have all variety of beers and IPA's. We alos have beers all kinds of beers in all sizes of cans and all bottles",
-            "img_url": "https://punchdrink.com/wp-content/uploads/2018/05/Article-Best-Regional-Lager-Beer-Budweiser.jpg?w=1024",
+            "img_url": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/IP_6.webp",
             "products": ["Yuengling", "Blue Ribbon", "Budweiser", "Bush", "Lone Star", "Miller Lite", "Samuel Adams", "Coors", "Heinken", "Corona Extra", "Modelo", "Stella Artos", "Blue Moon", "Twisted Tea", "Bud Light", "Angry Orchard", "Michelob Ultra", "Natural light"]
         },
         {
             "name": "Tobacco",
             "desc": "We have all types of Tobacco Products from 24/7 to Marlboro and American Spirit",
-            "img_url": "https://image.cnbcfm.com/api/v1/image/107232975-1682707584809-gettyimages-1486127435-0j5a7452_taucodly.jpeg?v=1688212802&w=720&h=405",
+            "img_url": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/IP_7.jpeg",
             "products": ["All trims of Marlboro", "L&M", "Pall Mall", "Camel", "New Port", "American Spirit", "Lucky Strike", "Salem", "24/7", "Decade", "Berleys", "Cheyenne", 
                         "Swisher Sweets", "White Owl", "Backwoods", "Black & Mild", "Plastic Tip", "Wood Tip", "Dutch", "BLK", "Game", "Show", "Zig Zag", "Raw", "Wraps and Cones", "and so on ..."]
         },
         {
             "name": "Chewing Tobacco",
             "desc": "We have all types of chewing Tobacco Products and pouches from Copenhagen to Zyn",
-            "img_url": "https://makesmokinghistory.org/wp-content/uploads/2016/03/chewing-tobacco.png",
+            "img_url": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/IP_8.png",
             "products": ["Copenhagen", "Grizzly", "Skoal", "Snus", "ON", "Husky", "Longhorn", "Zyn", "Red Seal", "Strips", "Cow Boy", "Vuse", "Rouge", "Zone", "Velo"]
         },
         {
             "name": "Milk Products",
             "desc": "We have quality milk products from Hiland and we also sell all type of Cheese",
-            "img_url": "https://arkansasbusiness.wppcdn.com/wp-content/uploads/2013/01/hiland-dairy.jpg",
+            "img_url": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/IP_9.jpg",
             "products": ["Chocolate Milk", "Vitamin D Milk", "2% Milk", "5% Milk", "Strawberry Milk", "Wisconsin Cheese", "Cheddar Cheese"]
         },
         {
             "name": "Refreshments",
             "desc": "We have large 2 large fountains of Coco-cola and Pepsi. We also sell frosties, 20oz and 1L bottles and 12oz and 16oz Tins. ",
-            "img_url": "https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/cjzngify/6b088f4d-a9c8-490e-ba12-7e8655013c41.jpeg",
+            "img_url": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/IP_10.png",
             "products": ["Coco-cola All sizes and Flavours", "Pepsi All sizes and Flavours", "Sprite All sizes and Flavours", "Dr Pepper All sizes and Flavours", "Mountain Dew All sizes and Flavours", "Fanta All sizes",
                         "Root Beers", "Iced Tea", "Gatorade in all sizes and Flavors", "Propel", "Ice Mountain Water", "Acquafina", "Celsius", "Rockstar Energy All sizes and Flavours", "Monster All sizes and Flavours", "Red Bull All sizes and Flavours"]
         },
         {
             "name": "Coffee",
             "desc": "We brew fresh coffee daily and we also have iced coffee and also cold coffee from starbucks in all favours and sizes",
-            "img_url": "https://www.tastingtable.com/img/gallery/15-bottled-and-canned-starbucks-coffees-ranked/intro-1688405613.jpg",
+            "img_url": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/IP_11.jpg",
             "products": ["Freshly Brewed Coffee", "Mocha", "Caramel", "White Chocolate", "Doubleshot", "Tripleshot", "Cafe Mocha", "Expresso"]
         },
         {
             "name": "Drugs and Supplies",
             "desc": "we also handy remedies to conquer a cold, allergy or headache",
-            "img_url": "https://www.lildrugstore.com/application/files/6116/5790/4863/New-Group.jpg",
+            "img_url": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/IP_12.jpg",
             "products": ["Hydrogen peroxide", "Nasal Spray", "Cold & Flu Nighttime", "Sleep Aid", "Allergy", "Sinus Serve", "Stomach Ache", "Bandages", "Pain & Fever", "Ibuprofen", "Advil", "Aleve", "Bayer", "Excedrin", "Bayer",
                         "Vicks DayQuill", "NyQuill", "Nail cutters", "Tums", "Sticks", "Pads", "Tampons", "Safety Gloves", "Chap sticks", "Body Wash", "Tooth Paste and brush", "Napkins", "Wet Wipes", "Ispropyl Alcohol", "Halls", "Excedrin", "Vaporub"]
         },
         {
             "name": "Champs Fried Chicken",
             "desc": "Champ's Chicken offers a variety of chicken meals, Seafood Meals and Breakfast",
-            "img_url": "https://champschicken.com/wp-content/uploads/2021/10/pixie_1633116348200-1024x576.png",
+            "img_url": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/IP_13.png",
             "products": ["Tenders", "Dippers", "Sandwiches", "Fish", "Shrimp", "Biscuits", "Loaded Burrito", "Loaded Bowl"]
         },
         {

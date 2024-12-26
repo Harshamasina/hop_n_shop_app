@@ -1,0 +1,52 @@
+{
+    "gallery": [
+        {
+            "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_1.jpeg"
+        },
+        {
+            "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_2.jpeg"
+        },
+        {
+            "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_3.jpeg"
+        },
+        {
+            "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_4.jpeg"
+        },
+        {
+            "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_5.jpeg"
+        },
+        {
+            "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_6.jpg"
+        },
+        {
+            "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_7.jpg"
+        },
+        {
+            "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_8.jpg"
+        },
+        {
+            "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_9.jpeg"
+        },
+        {
+            "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_10.jpeg"
+        },
+        {
+            "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_11.jpeg"
+        },
+        {
+            "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_12.jpeg"
+        },
+        {
+            "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_13.jpeg"
+        },
+        {
+            "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_14.jpg"
+        },
+        {
+            "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_15.jpg"
+        },
+        {
+            "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_16.jpg"
+        }
+    ] 
+}

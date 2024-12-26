@@ -1,5 +1,3 @@
-import GS_1 from "../assets/GS_2.jpg"
-
 const WalkInCoolers = () => {
     return (
         <div>
@@ -9,7 +7,7 @@ const WalkInCoolers = () => {
             <div className="img_box_card_container">
                 <div className="img_box_card">
                     <div className="img_box">
-                        <img src={GS_1} alt="Trenchless Repair" />
+                        <img src="https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/GS_2.jpg" alt="Trenchless Repair" />
                     </div>
                     <div className="img_box_content">
                         <h3>We also have Full Size Walk in Coolers</h3>

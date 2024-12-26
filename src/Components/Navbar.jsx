@@ -2,13 +2,12 @@ import React, { useState } from 'react';
 import { Routes, Route, Link } from "react-router-dom";
 import Home from '../Pages/Home';
 import Inventory from '../Pages/Sinclair/Inventory';
-import Contact from '../Pages/Contact';
 import ChampsHome from '../Pages/Champs/ChampsHome';
-import { FiAlignRight, FiXCircle, FiChevronDown } from "react-icons/fi";
-import sinclair_logo from '../assets/sinclair_logo.png';
+import { FiAlignRight, FiXCircle } from "react-icons/fi";
 import Error404 from '../Pages/Error404';
 import About_Us from '../Pages/About_Us';
 import HuntsPizza from '../Pages/HuntsPizza';
+import Gallery from '../Pages/Gallery';
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
@@ -31,7 +30,7 @@ const Navbar = () => {
             <div>
                 <nav className={changeNavbar ? 'navbar_color' : 'navbar'}>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        Hop'n Shop & <img src={sinclair_logo} alt="Logo" />
+                        Hop'n Shop & <img src="https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/sinclair_logo.png" alt="Logo" />
                     </Link>
                     
                     <div className='menu-icon' onClick={handleClick}>
@@ -64,6 +63,12 @@ const Navbar = () => {
                         </li>
 
                         <li className='nav-item'>
+                            <Link to='/gallery' className='nav-links' onClick={closeMobileMenu}>
+                                Gallery
+                            </Link>
+                        </li>
+
+                        <li className='nav-item'>
                             <a href='#contact' className='nav-links-btn' onClick={closeMobileMenu}>Contact Us</a>
                         </li>
                     </ul>
@@ -78,7 +83,7 @@ const Navbar = () => {
                     <Route path='/inventory' element={<Inventory />} />
                     <Route path='/champs_fried_chicken' element={<ChampsHome />} />
                     <Route path='/hunts_pizza' element={<HuntsPizza />} />
-                    <Route path='/contact_us' element={<Contact />} />
+                    <Route path='/gallery' element={<Gallery />} />
                     <Route path='*' element={<Error404 />} />
                 </Routes>
             </div>
