@@ -70,14 +70,14 @@ const Footer = () => {
                                         </ul>
                                     </div>
 
-                                    {/* <div className="col-xl-auto col-md-3 col-12 my-sm-0 mt-5">
+                                    <div className="col-xl-auto col-md-3 col-12 my-sm-0 mt-5">
                                         <ul className="list-unstyled">
                                             <li className="footer_headings mt-md-3 mt-4">Contact Details</li>
-                                            <li className='footer_info'>Pramod Situala</li>
+                                            {/* <li className='footer_info'>Pramod Situala</li> */}
                                             <li className='footer_info'>Pathwaymo2003@gmail.com</li>
                                             <li className='footer_info'><a>+1 (573)-364-7400</a></li>
                                         </ul>
-                                    </div> */}
+                                    </div>
                                 </div>  
                             </div>
                         </div> 
