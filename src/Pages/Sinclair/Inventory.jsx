@@ -16,8 +16,9 @@ const Inventory = () => {
         <div>
             <Helmet>
                 <title> | Hop'n Shop #32 & Sinclair</title>
-                <meta name="description" content="" />
-                <meta name='keywords' content='' />
+                <meta name="description" content="We have all types of items in our convenience store with premium grade fuel." />
+                <meta name='keywords' content="fuel, cigarettes, Beer, Alcohol, Snacks and Candies" />
+                <link rel="canonical" href="https://sinclairrolla.com/inventory" />
             </Helmet>
 
             <Parallax bgImage={img} strength={200} bgImageAlt="parallaximg" blur={2}>

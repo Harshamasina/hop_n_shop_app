@@ -17,9 +17,10 @@ const Gallery = () => {
     return (
         <>
             <Helmet>
-                <title>About Us | Hop'n Shop #32 & Sinclair</title>
+                <title>Gallery | Hop'n Shop #32 & Sinclair</title>
                 <meta name="description" content="Gallery of Hop'n Shop #32 & Sinclair" />
                 <meta name='keywords' content="Hop'n Shop #32 & Sinclair Pictures" />
+                <link rel="canonical" href="https://sinclairrolla.com/gallery" />
             </Helmet>
 
             <Parallax bgImage={img} strength={200} bgImageAlt="parallaximg" blur={1}>

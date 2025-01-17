@@ -1,5 +1,3 @@
-import fried_chicken from '../../assets/fried_chicken.mp4';
-import champs_sandwich from '../../assets/champs_sandwich.png';
 import Champs_Menu from './Champs_Menu';
 import ChampsRibbon from './ChampsRibbon';
 import { Helmet } from 'react-helmet';
@@ -10,8 +8,9 @@ const champsHome = () => {
         <div>
             <Helmet>
                 <title>Champs Chicken | Hop'n Shop #32 & Sinclair</title>
-                <meta name="description" content="" />
-                <meta name='keywords' content='' />
+                <meta name="description" content="We also have Champs Fried Chicken in our gas station" />
+                <meta name='keywords' content='Chicken Sandwich, Chicken Strips, Sliders, Biscuits Etc.' />
+                <link rel="canonical" href="https://sinclairrolla.com/champs_fried_chicken" />
             </Helmet>
             
             <section className='champs_main'>
@@ -19,7 +18,6 @@ const champsHome = () => {
                 <div className='champs_info'>
                     <p>Be a Mealtime HERO.</p>
                     <h1>CHAMPS <span>CHICKEN</span></h1>
-                    <p>Coming Soon!</p>
                     {/* <a href='#menu' className='champs_home_btn'>See our Menu</a> */}
                 </div>
                 <video className='champs_video-bg' autoPlay muted loop>

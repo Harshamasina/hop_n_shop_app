@@ -7,7 +7,8 @@ const HuntsPizza = () => {
             <Helmet>
                 <title>Hunt Brothers Pizza | Hop'n Shop #32 & Sinclair</title>
                 <meta name="description" content="see our Menu of Pizzas and Bites" />
-                <meta name='keywords' content='' />
+                <meta name='keywords' content='Chess Pizza, Chicken, Pepporoni, Sliders, Sauces' />
+                <link rel="canonical" href="https://sinclairrolla.com/hunts_pizza" />
             </Helmet>
 
             <section className='champs_main'>

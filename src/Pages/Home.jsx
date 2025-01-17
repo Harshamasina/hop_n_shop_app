@@ -12,6 +12,7 @@ const Home = () => {
                 <title>Home | Hop'n Shop #32 & Sinclair</title>
                 <meta name="description" content="Welcome to Hop'n Shop #32 & Sinclair. Know more about Us" />
                 <meta name='keywords' content="Hop'n Shop #32 & Sinclair" />
+                <link rel="canonical" href="https://sinclairrolla.com/home" />
             </Helmet>
 
             <section className='main'>
