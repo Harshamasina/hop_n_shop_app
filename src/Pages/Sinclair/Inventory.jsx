@@ -15,7 +15,7 @@ const Inventory = () => {
     return (
         <div>
             <Helmet>
-                <title> | Hop'n Shop #32 & Sinclair</title>
+                <title>Inventory | Hop'n Shop #32 & Sinclair</title>
                 <meta name="description" content="We have all types of items in our convenience store with premium grade fuel." />
                 <meta name='keywords' content="fuel, cigarettes, Beer, Alcohol, Snacks and Candies" />
                 <link rel="canonical" href="https://sinclairrolla.com/inventory" />
