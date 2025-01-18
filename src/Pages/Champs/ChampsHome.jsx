@@ -27,7 +27,7 @@ const champsHome = () => {
 
             <div className='champs_home_info' id="about_champs" >
                 <div className='champs_home_info_img'>
-                    <img src="https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/champs_sandwich.png" alt='' />
+                    <img src="https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/champs_pic.jpeg" alt='champs_food' />
                 </div>
 
                 <div className='champs_home_info_p'>

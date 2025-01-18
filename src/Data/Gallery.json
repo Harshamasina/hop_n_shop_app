@@ -1,6 +1,9 @@
 {
     "gallery": [
         {
+            "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_18.jpeg"
+        },
+        {
             "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_1.jpeg"
         },
         {
@@ -47,6 +50,12 @@
         },
         {
             "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_16.jpg"
+        },
+        {
+            "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_17.jpg"
+        },
+        {
+            "imgUrl": "https://hopnshop-sinclair.s3.us-east-1.amazonaws.com/G_17.jpeg"
         }
     ] 
 }

@@ -211,6 +211,7 @@ form input::placeholder,
   
 form input {
     width: 47%;
+    border-radius: 5px;
 }
   
 form input:nth-child(3) {
@@ -219,6 +220,7 @@ form input:nth-child(3) {
   
 form textarea {
     width: 100%;
+    border-radius: 5px;
 }
   
 .btn {
@@ -866,12 +868,15 @@ form textarea {
     margin-top: 3%;
     margin-bottom: 3%;
     display: flex;
-    gap: 15px;
+    gap: 25px;
     justify-content: center;
 }
 
 .champs_home_info_img img{
     width: 750px;
+    border-radius: 10px;
+    height: 450px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
 }
 
 .champs_home_info_p p{
@@ -1009,7 +1014,8 @@ form textarea {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.1);
 }
   
 .menu_output h4 {
@@ -1648,7 +1654,7 @@ article:has(:hover, :focus) {
     scale: 0.7;
     font-size: 5vw;
     font-weight: 600;
-    color: rgb(230, 239, 244);
+    color: rgb(240, 46, 35);
 }
 
 .img_box_content p{
@@ -1840,7 +1846,7 @@ article:has(:hover, :focus) {
 
     .champs_home_info_img img{
         width: 100%;
-        height: 200px;
+        height: 275px;
     }
 
     .champs_home_info_p p{

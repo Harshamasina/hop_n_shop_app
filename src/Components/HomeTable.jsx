@@ -7,7 +7,7 @@ const HomeTable = () => {
 
     useEffect(() => {
         setData(scheduleData.scheduleData);
-    })
+    });
 
     return (
         <section className="schedule">
